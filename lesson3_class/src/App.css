@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.second-layout {
+  display: flex;
+}
+
+.second-layout > div {
+  flex: 1;
+}
+
+.third-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-layout .second-layout {
+  display: flex;
+}
+
+.third-layout .second-layout > div {
+  flex: 1;
+}
