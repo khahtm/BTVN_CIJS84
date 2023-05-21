@@ -6,6 +6,9 @@ import InputCustomM from "./components/InputCustomM";
 
 
 function App() {
+  const handleRegister = () => {
+    alert("Đăng ký thành công");
+  };
   return (
     <div className="container">
       <div>
@@ -70,7 +73,7 @@ function App() {
             <InputCustom type="password" className="ghilaimk" placeholder="Retype Password" />
             <br />
           </div>
-          <input type="button" className="nut" value="Register" />
+          <input type="button" className="nut" value="Register" onClick={handleRegister} />
         </form>
       </div>
     </div>
