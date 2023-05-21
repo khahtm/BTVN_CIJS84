@@ -5,17 +5,13 @@ function App() {
   const [count, setCount] = useState(0); // Số lần nhấp nút "Next"
   const [stop, setStop] = useState(false); // Trạng thái dừng
 
-  const handleNextClick = (event) => {
-    event.preventDefault(); // Ngăn chặn hành vi mặc định của sự kiện
-    if (!stop) {
-      if (count < 14) {
-        setCount((prevCount) => prevCount + 1);
-      } else {
-        setStop(true);
-      }
+  const handleNextClick = () => {
+    if (count < 14) {
+      setCount((prevCount) => prevCount + 1);
+    } else {
+      setStop(true);
     }
   };
-  
 
   const getCircleColor = (index) => {
     if (!stop) {
