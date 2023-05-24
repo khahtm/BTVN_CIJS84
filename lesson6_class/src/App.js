@@ -42,7 +42,7 @@ const SubmitName = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmittedText(`${name} + cùng với + ${occupation}`);
+    setSubmittedText(`${name} + and + ${occupation}`);
     setName("");
     setOccupation("");
   };

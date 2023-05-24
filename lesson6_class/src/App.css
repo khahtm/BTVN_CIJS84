@@ -1,5 +1,3 @@
-/* App.css */
-
 .app {
   text-align: center;
   margin-top: 50px;
@@ -17,17 +15,15 @@
 
 .column h3 {
   margin-bottom: 10px;
-  color: #333;
 }
 
 .column button {
   margin: 5px;
   padding: 5px 10px;
   font-size: 16px;
-  background-color: #f0f0f0;
+  background-color: #ccc;
   border: none;
   cursor: pointer;
-  color: #333;
 }
 
 .column span {
@@ -41,7 +37,6 @@
 
 .submit-name h3 {
   margin-bottom: 10px;
-  color: #333;
 }
 
 .submit-name form {
@@ -52,23 +47,20 @@
 
 .submit-name label {
   margin-bottom: 10px;
-  color: #333;
 }
 
 .submit-name input {
   padding: 5px;
   font-size: 16px;
-  border: 1px solid #ccc;
 }
 
 .submit-name button {
   margin-top: 10px;
   padding: 5px 10px;
   font-size: 16px;
-  background-color: #f0f0f0;
+  background-color: #ccc;
   border: none;
   cursor: pointer;
-  color: #333;
 }
 
 .submitted-text {
