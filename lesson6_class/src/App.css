@@ -1,0 +1,78 @@
+/* App.css */
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.column {
+  margin: 0 20px;
+}
+
+.column h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.column button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.column span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit-name {
+  margin-top: 30px;
+}
+
+.submit-name h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.submit-name form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-name label {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.submit-name input {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.submit-name button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.submitted-text {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
