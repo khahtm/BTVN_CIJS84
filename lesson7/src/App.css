@@ -1,0 +1,60 @@
+.app {
+  width: 400px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.gender {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.male {
+  background-color: green;
+  color: white;
+}
+
+.female {
+  background-color: pink;
+  color: white;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.delete-icon {
+  color: red;
+  font-size: 20px;
+}
+
+
